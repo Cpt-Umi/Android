@@ -4,15 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity"
+    android:gravity="center"
+    android:background="@color/primary_gray">
 
-    <TextView
+    <EditText
+        android:id="@+id/rUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user"
+        android:textAlignment="center"
+        android:textSize="@dimen/fontSize"
+        />
+
+    <EditText
+        android:id="@+id/rPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rUser"
+        android:layout_marginTop="@dimen/mt_0"
+        android:hint="@string/pass"
+        android:textAlignment="center"
+        android:textSize="@dimen/fontSize"/>
+
+    <Button
+        android:id="@+id/rBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Register"
+        android:layout_below="@id/rPass"
+        android:layout_marginTop="@dimen/mt_1"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dedsec</string>
+    <string name="user">Enter UserName</string>
+    <string name="pass">Enter Password</string>
 </resources>

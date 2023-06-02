@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mt_0">25px</dimen>
+    <dimen name="mt_1">50px</dimen>
+    <dimen name="fontSize">50px</dimen>
+</resources>
